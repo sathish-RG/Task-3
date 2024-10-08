@@ -12,6 +12,22 @@ nav {
   right: 525px;
   top: 25px;
 }
+#menu{
+  position: absolute;
+  display: none;
+}
+@media screen and (max-width: 1200px) {
+#nav-menu{
+  display: none;
+}
+#menu{
+  position: absolute;
+  display: block;
+  left: 650px;
+  top: 28px;
+}
+  
+}
 #nav-menu > p {
   display: inline;
   padding: 10px;
@@ -48,6 +64,15 @@ nav {
   top: -22px;
   right: -30px;
   z-index: 1;
+}
+@media screen and (max-width: 1000px){
+#login-singup{
+  display: none;
+  }
+  #mobile-view{
+    position: absolute;
+    left: 250px;
+  }
 }
 #bg-flight {
   position: relative;
@@ -117,7 +142,7 @@ nav {
   position: absolute;
   border-top-left-radius: 50%;
   border-top-right-radius: 100%;
-  right: 250px;
+  left: 750px;
   height: 380px;
   width: 350px;
   top: 100px;
